@@ -1,0 +1,202 @@
+body 
+{
+    direction:rtl;
+}
+#container{
+    width:960px;
+    margin:0 auto;
+}
+body{
+    background-image:url(../images/ava7patterns_wallpaper_1920x1080_1500.png);
+}
+h1{
+    font-family:'Comix No2 CLM';
+    font-size:36px;
+    width:350px;
+    height:40px;
+    text-align:center;
+    font-weight:bold;
+    color: white;
+    border:solid 2px white;
+    padding:10px;
+    background-color:#cd6ae0;
+    margin-right:300px;
+    margin-top:10px;
+   }
+ul{
+    list-style:none;
+}
+
+#list ul li {
+    display:inline-block;
+    float: right;
+    margin-top:63px;
+
+}
+
+#list ul li a{
+    background-color:#cd6ae0;
+    color: white;
+    font-weight:bold;
+    width: 120px;
+    height:30px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px;
+    margin:1px;
+
+}
+#list ul li a:hover {
+    background-color: #ca14bb;
+
+}
+
+#list ul li a:active{
+
+    background-color: azure;
+    color:darkblue;
+}
+
+#list #selected{
+    background-color: azure;
+    color:darkblue;
+
+}
+
+#describe{
+     font-family:'Comix No2 CLM';
+     font-size:26px;
+    color:rebeccapurple;
+    text-align:center;
+    font-weight:bold;
+    background-color:azure;
+    width:600px;
+    height:400px;
+    margin-top:90px;
+    padding:50px;
+}
+#pic1{
+    content:url(../images/pic1.jpg);
+    width: 300px;
+    height: 300px;
+    margin-right:150px;
+    margin-top:20px; 
+
+}
+#info{
+    background-color:azure;width:600px;
+    height:400px;
+    margin-top:90px;
+    padding:50px;
+    color:rebeccapurple;
+    font-size:26px;
+
+}
+#pic3{
+    content:url(../images/pro.jpg);
+     width:200px;
+    margin-right:170px;
+    margin-top:40px;
+}
+#job{
+    background-color:azure;
+    width:600px;
+    height:400px;
+    margin-top:90px;
+    padding:50px;
+    color:rebeccapurple;
+    font-size:26px;
+
+}
+#pic2{
+    content:url(../images/pic2.jpg);
+     width:200px;
+    height:200px;
+    margin-right:150px;
+    -webkit-transition: all 1s ease-out;
+-moz-transition: all 1s ease-out;
+-ms-transition: all 1s ease-out;
+-o-transition: all 1s ease-out;
+transition: all 1s ease-out;
+
+
+}
+#pic2:hover{
+    width:230px;
+    height:230px;
+}
+#hobby{
+    background-color:azure;
+    width:600px;
+    height:400px;
+    margin-top:90px;
+    padding:50px;
+    color:rebeccapurple;
+    font-size:26px;
+    list-style:square;
+}
+
+#ins{
+    content:url(../images/instagram-new-icon.png);
+    width:50px;
+    height:43px;
+}
+    #ins:hover {
+        content: url(../images/happy-person-raising-one-hand.png);
+    }
+    #nail{
+        content:url(../images/oc.nailart_8_4_2017_13_12_37_253.jpg);
+         width:250px;
+        height:250px;
+        margin-right:190px;
+        margin-top:20px;
+    }
+    #hello{
+    background-color:azure;
+    width:600px;
+    height:400px;
+    margin-top:90px;
+    padding:50px;
+    color:rebeccapurple;
+    font-size:26px;
+}
+
+   #fac{
+    content:url(../images/facebook.png);
+    width:64px;
+    height:64px;
+    margin:10px;
+ 
+}
+    #fac:hover {
+        content: url(../images/Like.png);
+    }
+
+#bye{
+    background-color:deeppink;
+    width:50px;
+    height:50px;
+    color:white;
+    font-size:36px;
+    font-weight:bold;
+    text-align:center;
+    margin:200px;
+    animation: pulse 5s infinite;
+    }
+@keyframes pulse {
+  0% {
+    background-color: #001F3F;
+  }
+  100% {
+    background-color: #FF4136;
+  }
+}
+
+
+
+
+
+     
+  
+
